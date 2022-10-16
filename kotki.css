@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(46, 31, 13);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    color: bisque;
+}
+header {
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg");
+    background-size: cover;
+    border: 5px solid bisque;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-cat {
+    height: 130px;
+}
+nav {
+    font-family: 'Playball', cursive;
+    color: rgb(43, 4, 4);
+}
+a {
+    color: inherit;
+}
+nav a:hover {
+    background-color: burlywood;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    margin-top: 5px;
+    padding: 10px;
+    width: 32%;
+    border: 3px solid bisque;
+}
+.center {
+    font-family: 'Playball', cursive;
+}
+ h1 {
+    color: rgb(43, 4, 4);
+    font-family: 'Arizonia', cursive;
+    font-size: 3rem;
+ }
+.name {
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.name:hover {
+    transform: scale(1.5);
+    transition: all 2s;
+}
+.cat img {
+    margin-right: 5px;
+    width: 50%;
+    float: left;
+    border: 6px double wheat;
+}
+ol, ul {
+    margin-left: 50%;
+    overflow-wrap: break-word;
+}
+.item-0 {
+    display: flex;
+    justify-content: center;
+}
+.item-0 img {
+    width: 100%;
+}
+.item-1 {
+    display: flex;
+}
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 300px;
+}
+.item-3, .item-4 {
+    text-align: center;
+    margin: 2px;
+    border: 2px solid bisque;
+    height: 100%;
+    overflow-wrap: break-word;
+}
+
+#mem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-box img{
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+.image-box:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Playball', cursive;
+}
+#contact img {
+    height: 300px;
+}
