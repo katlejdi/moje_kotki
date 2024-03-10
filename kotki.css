@@ -32,18 +32,19 @@ nav a:hover {
     cursor: pointer;
     font-weight: bold;
 }
-.container {
+
+/* .container {
     display: flex;
     justify-content: space-between;
-}
+} */
 .column {
     margin-top: 5px;
     padding: 10px;
-    width: 32%;
     border: 3px solid bisque;
 }
-.center {
+.col-center {
     font-family: 'Playball', cursive;
+    font-size: 1rem;
 }
  h1 {
     color: rgb(43, 4, 4);
@@ -60,7 +61,7 @@ nav a:hover {
     transform: scale(1.5);
     transition: all 2s;
 }
-.cat img {
+.col-cat img {
     margin-right: 5px;
     width: 50%;
     float: left;
